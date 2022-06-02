@@ -48,6 +48,11 @@ h5{
     font-size: 20px;
     font-weight: 400;
 }
+h6{
+    font-family: 'Droid Serif';
+    font-size: 18px;
+    font-weight: 400;
+}
 .light-font{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -145,7 +150,7 @@ ul.navbar-nav li a:hover{
     padding: 100px 0;
 
 }
-.hero button, .search-btn button{
+.hero button, .search-btn button, .price-btn button{
     background-color: #119ee6;
     color: #fff;
     transition: .3s;
@@ -265,8 +270,8 @@ ul.navbar-nav li a:hover{
 /* --- Subscriber CSS End ---*/
 
 /* --- Feature CSS Start ---*/
-.feature{
-    padding: 50px 0;
+.feature, .pricing-plan{
+    padding: 100px 0;
 }
 .feature-head p{
     color: #a1a1a1;
@@ -285,4 +290,86 @@ ul.navbar-nav li a:hover{
 }
 /* --- Feature CSS End ---*/
 
+/* --- Pricing CSS Start ---*/
+.pricing-plan{
+    background-color: #f9f9f9;
+}
+.pricing-head p {
+    color: #a1a1a1;
+}
+.price-header{
+    background-color: #000;
+}
+.single-price .price-header p{
+    font-size: 14px;
+    font-style: italic;
+}
+.single-price .price-header h4 span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1a1a1;
+}
+.price-icon span{
+    margin-top: -35px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 100%;
+    border-bottom: 1px solid #fff;
+    background-color: #000;
+    text-align: center;
+}
+.single-price{
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.price-list ul{
+    padding-left: 0;
+}
+.price-list ul li{
+    margin-bottom: 10px;
+}
+.price-list ul li span.install-icon{
+    color: #999999;
+}
+.price-list ul li span.install-charge{
+    color: #999999;
+}
+.price-btn button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.middle-header {
+    background-color: #119ee6;
+}
+.price-icon-middle span{
+    background-color: #119ee6;
+}
+.price-btn-middle button{
+    background-color: #000;
+}
+.price-btn-middle button:hover{
+    background-color: #119ee6;
+}
+.recommend{
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-left: -60px;
+    overflow: hidden;
+}
+.recommend h6{
+    background-color: #fff;
+    padding: 10px 40px;
+    color: #119ee6;
+    font-size: 12px;
+}
+.middle-price{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* --- Pricing CSS End ---*/
 /* === Main Section CSS End Here === */
