@@ -1,0 +1,288 @@
+/* === Font Integration Start ===*/
+@font-face{
+    font-family:'Roboto', sans-serif;
+    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url(../fonts/DroidSerif-Regular.ttf);
+    src: url(../fonts/DroidSerif-Bold.ttf);
+}
+/* === Font Integration End ===*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+li {
+    list-style: none;
+    margin-bottom: 0;
+}
+h1 {
+    font-family: 'Droid Serif';
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    font-family: 'Droid Serif';
+    font-size: 36px;
+}
+h4 {
+    font-family: 'Droid Serif';
+    font-size: 22px;
+    font-weight: 400;
+}
+h5{
+    font-family: 'Droid Serif';
+    font-size: 20px;
+    font-weight: 400;
+}
+.light-font{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #F2F2F2;
+}
+p{
+    margin: 0;
+}
+/* === Header Section CSS Start Here === */
+
+#navbar {
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: rgba(74, 74, 74, 0.166) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.top-nav{
+    height: 50px;
+    background-color: #151414;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.social-left ul{
+    padding-left: 0;
+}
+.social-left ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.social-left ul span{
+    color: #aaaaaa;
+}
+.social-left ul li a, .social-right ul li span{
+    color: #aaaaaa;
+}
+.social-left ul li a:hover{
+    color: #119ee6;
+}
+.social-right ul li:first-child{
+    padding-right: 15px;
+    border-right: 1px solid #aaaaaa;
+}
+ul.navbar-nav{
+    margin-right: 40px;
+}
+ul.navbar-nav li{
+    margin-left: 20px;
+}
+ul.dropdown-menu{
+    padding-left: 0;
+}
+ul.hosting-li li, ul.page-li li{
+    margin-left: 0;
+}
+ul.navbar-nav li a{
+    color: #151414;
+    font-size: 16px;
+}
+ul.navbar-nav li a:hover{
+    color: #119ee6;
+}
+.cart-icon{
+    padding-left: 50px;
+    border-left: 1px solid #151414;
+}
+.cart-icon a{
+    color: #151414;
+}
+.cart-icon a:hover{
+    color: #119ee6;
+}
+
+/* Top Nav End */
+
+/* === Header Section CSS End Here === */
+
+/* === Main Section CSS Start Here === */
+
+/* --- Hero CSS Start ---*/
+.hero{
+    background-color: #f2f2f2;
+    padding: 100px 0;
+
+}
+.hero button, .search-btn button{
+    background-color: #119ee6;
+    color: #fff;
+    transition: .3s;
+}
+.hero button:hover {
+    background-color: #000;
+    color: #fff;
+}
+ .search-btn button:hover {
+     background-color: #fff;
+     color: #000;
+ }
+.owl-dots{
+    display: none;
+}
+.owl-nav{
+    margin-top: 0 !important;
+}
+.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 48%;
+}
+.owl-next{
+    position: absolute;
+    right: 0;
+    top: 48%;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    margin: 0;
+}
+.owl-prev span{
+    font-size: 30px;
+    background-color: #119ee6;
+    padding: 15px 8px;
+    color: #fff;
+}
+.owl-next span{
+    font-size: 30px;
+    background-color: #119ee6;
+    padding: 15px 8px;
+    color: #fff;
+}
+/* --- Hero CSS End ---*/
+
+/* --- Service CSS Start ---*/
+.card{
+    background-color: #119ee6;
+    color: #fff;
+    transition: .3s;
+}
+.card-icon{
+    margin-top: -27px;
+    z-index: 999;
+}
+
+.card-icon span{
+    display: block;
+    width: 55px;
+    height: 55px;
+    padding-top: 6px;
+    background-color: #119ee6;
+    color: #fff;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #000;
+    font-size: 22px;
+    text-align: center;
+}
+.card-icon span svg{
+    font-size: 22px;
+}
+.card:hover .card-icon span{
+    background-color: #000;
+    outline-color: #119ee6;
+}
+.card-body p{
+    font-size: 14px;
+}
+.hide-btn{
+    font-size: 14px;
+    color: #119ee6;
+}
+.card:hover{
+    background-color: #fff;
+    color: #151414;
+    margin-top: -30px;
+}
+.card:hover .hide-btn {
+    display: block;
+}
+/* --- Service CSS End ---*/
+
+
+/* --- Subscriber CSS Start ---*/
+.subscriber{
+    padding: 100px 0;
+    background-image: url(../images/dark-bg.png);
+}
+.domain-checker{
+    border: 8px solid #119ee6;
+}
+.form-select {
+    margin: 0;
+    border: 0;
+    background-image: url(../images/arrow-down.png);
+    background-size: 12px;
+}
+.extnsn-price p{
+    color: #F2F2F2;
+}
+.extnsn-price p span{
+    font-size: 12px;
+}
+/* --- Subscriber CSS End ---*/
+
+/* --- Feature CSS Start ---*/
+.feature{
+    padding: 50px 0;
+}
+.feature-head p{
+    color: #a1a1a1;
+}
+.feature .feature-icon span{
+    font-size: 26px;
+    border-bottom: 1px solid #119ee6;
+    padding: 0 30px 10px 0;
+    color: #119ee6;
+}
+.feature-content{
+    margin-top: 40px;
+}
+.feature-content p{
+    font-size: 14px;
+}
+/* --- Feature CSS End ---*/
+
+/* === Main Section CSS End Here === */
