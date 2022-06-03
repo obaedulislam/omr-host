@@ -421,4 +421,74 @@ ul.navbar-nav li a:hover{
     color: #F2F2F2;
 }
 /* --- Counter CSS End ---*/
+
+
+/* --- Offer CSS Start ---*/
+.offer-section{
+    background-color: #f9f9f9;
+}
+.nav-pills{
+    background-color: #fff;
+    border: 0.5px solid #aaaaaa2a;
+}
+.nav-tab-btn {
+    background-color: #fff;
+    color: #999999;
+    padding: 15px 35px;
+    outline: 0 !important;
+    border-bottom: 2px solid #119ee6;
+    border-radius: 0;
+}
+.offer-section .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #fff;
+    color: #119ee6;
+    padding: 15px 35px;
+    outline: 0 !important;
+    border-bottom: 2px solid #119ee6;
+    border-radius: 0;
+}
+.tab-btn span{
+    font-size: 30px;
+}
+.tab-btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.btn-check:active+.btn-light:focus,
+.btn-check:checked+.btn-light:focus,
+.btn-light.active:focus,
+.btn-light:active:focus,
+.show>.btn-light.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.offer-section ul li.nav-item{
+    border-right: 0.5px solid #aaaaaa2a;
+}
+
+.tab-content{
+    margin-top: 70px;
+    padding: 50px;
+    background-color: #fff;
+}
+.tab-content h4{
+    font-weight: 700;
+}
+.tab-content p{
+    font-size: 14px;
+}
+.highlight-des{
+    padding-left: 30px;
+    border-left: 2px solid #aaaaaa;
+    color: #999999;
+}
+.tab-content button {
+    margin-top: 20px;
+    padding: 0;
+    color: #119ee6;
+}
+
+/* ToolTip */
+
+/* --- Offer CSS End ---*/
 /* === Main Section CSS End Here === */
