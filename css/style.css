@@ -275,7 +275,7 @@ ul.navbar-nav li a:hover{
 /* --- Subscriber CSS End ---*/
 
 /* --- Feature CSS Start ---*/
-.feature, .pricing-plan, .offer-section, .why-choose-section{
+.feature, .pricing-plan, .offer-section, .why-choose-section, .client-section{
     padding: 100px 0;
 }
 .feature-head p{
@@ -296,7 +296,7 @@ ul.navbar-nav li a:hover{
 /* --- Feature CSS End ---*/
 
 /* --- Pricing CSS Start ---*/
-.pricing-plan{
+.pricing-plan, .client-section{
     background-color: #f9f9f9;
 }
 .pricing-head p {
