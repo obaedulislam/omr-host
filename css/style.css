@@ -12,6 +12,10 @@
     src: url(../fonts/DroidSerif-Regular.ttf);
     src: url(../fonts/DroidSerif-Bold.ttf);
 }
+@font-face {
+    font-family: 'Droid Serif';
+    src: url(../fonts/DroidSerif-Regular.ttf);
+}
 /* === Font Integration End ===*/
 *{
     margin: 0;
@@ -37,21 +41,22 @@ h1 {
 h2{
     font-family: 'Droid Serif';
     font-size: 36px;
+    font-weight: 700;
 }
 h4 {
     font-family: 'Droid Serif';
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
 }
 h5{
     font-family: 'Droid Serif';
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 700;
 }
 h6{
     font-family: 'Droid Serif';
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
 }
 .light-font{
     font-family: 'Roboto', sans-serif;
@@ -270,7 +275,7 @@ ul.navbar-nav li a:hover{
 /* --- Subscriber CSS End ---*/
 
 /* --- Feature CSS Start ---*/
-.feature, .pricing-plan{
+.feature, .pricing-plan, .offer-section{
     padding: 100px 0;
 }
 .feature-head p{
@@ -372,4 +377,48 @@ ul.navbar-nav li a:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 /* --- Pricing CSS End ---*/
+
+/* --- Counter CSS Start ---*/
+.counter-section{
+    padding: 100px 0;
+    background-color: #020202f5;
+    color: #fff;
+}
+.counter{
+    position: relative;
+}
+.counter-icon1{
+    background-image: url(../images/registered-domain.png);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+.counter-icon2{
+    background-image: url(../images/clients.png);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+.counter-icon3{
+    background-image: url(../images/bookmark.png);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+.counter-icon4{
+    background-image: url(../images/trophy.png);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+.counter-divider{
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+.counter-divider span{
+    font-size: 100px;
+    font-weight: 300;
+}
+.counter-title h6{
+    font-weight: 400;
+    color: #F2F2F2;
+}
+/* --- Counter CSS End ---*/
 /* === Main Section CSS End Here === */
