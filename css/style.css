@@ -275,7 +275,7 @@ ul.navbar-nav li a:hover{
 /* --- Subscriber CSS End ---*/
 
 /* --- Feature CSS Start ---*/
-.feature, .pricing-plan, .offer-section{
+.feature, .pricing-plan, .offer-section, .why-choose-section{
     padding: 100px 0;
 }
 .feature-head p{
@@ -470,6 +470,7 @@ ul.navbar-nav li a:hover{
     margin-top: 70px;
     padding: 50px;
     background-color: #fff;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
 }
 .tab-content h4{
     font-weight: 700;
@@ -489,6 +490,45 @@ ul.navbar-nav li a:hover{
 }
 
 /* ToolTip */
-
 /* --- Offer CSS End ---*/
+
+/* --- Why Choose CSS Start ---*/
+.hundred-secure{
+    background-color: #119ee6;
+    padding: 20px;
+    height: 100%;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    margin-top: -99999px;
+    padding-top: 99999px;
+    transition: .3s;
+}
+.hundred-secure:hover {
+    background-color: #000000;
+}
+.hundred-secure h2{
+    font-size: 60px;
+    color: #3fa9e9;
+}
+.hundred-secure:hover h2{
+    color: #363636;
+}
+.hundred-secure p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.hundred-secure .lock-icon span{
+    font-size: 24px;
+}
+.hundred-secure .secure span{
+    font-family: 'Droid Serif';
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.row {
+    overflow: hidden;
+}
+
+/* --- Why Choose CSS End ---*/
 /* === Main Section CSS End Here === */
