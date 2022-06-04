@@ -550,9 +550,98 @@ ul.navbar-nav li a:hover{
     font-size: 14px;
     color: #333333;
 }
-.owl-carousel .owl-nav.disabled {
+.client-section .owl-carousel .owl-nav{
+    margin-top: 30px;
+}
+.client-section .owl-carousel .owl-nav.disabled {
     display: block;
+}
+
+.client-section .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    font-size: 24px;
+    color: #000000;
+}
+.client-section .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #119ee6;
 }
 /* --- Client CSS End ---*/
 
+/* --- Contact CSS Start ---*/
+.contact-address{
+    background-color: #f9f9f9;
+}
+.address-bg{
+    background-color: #119ee6;
+}
+.contact-address .single-address span{
+    font-size: 30px;
+}
+.contact-address .single-address p{
+    font-size: 12px;
+}
+/* --- Contact CSS End ---*/
+
 /* === Main Section CSS End Here === */
+
+/* === Footer section CSS Start Here === */
+footer{
+    padding: 100px 0;
+    background-color: #000;
+}
+footer p{
+    color: #aaaaaa;
+    font-size: 14px;
+}
+footer .social-left ul li {
+    margin-right: 7px;
+}
+footer .social-left ul li a{
+    font-size: 14px;
+}
+footer .social-left ul span{
+    font-size: 14px;
+}
+.learn-more button{
+    color: #aaaaaa;
+}
+.learn-more button:focus {
+    box-shadow: none;
+}
+.learn-more button:hover{
+    color: #fff;
+}
+.single-footer ul li span.footer-icon {
+    color: #fff;
+}
+.single-footer ul li span {
+    color: #aaaaaa;
+}
+.single-footer ul li:hover span{
+    color: #119ee6;
+}
+.single-footer ul li.list-des{
+    font-size: 14px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.right-footer button{
+    background-color: #119ee6;
+    border: none;
+}
+.right-footer button:hover{
+    background-color: #000;
+    border: none;
+}
+.right-footer button:focus{
+    box-shadow: none;
+}
+.right-footer input::placeholder{
+    font-size: 14px;
+}
+.payment h6{
+    font-size: 18px;
+}
+/* === Footer section CSS End Here === */
