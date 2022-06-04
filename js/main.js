@@ -35,6 +35,7 @@ $('.hero-slider').owlCarousel({
     }
 })
 
+
 /*Counter jS */
 $(document).ready(function(){
     $('.counter-value').each(function(){
@@ -51,8 +52,26 @@ $(document).ready(function(){
 
 });
 
-//Tooltip
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
+
+// Client Slider
+$('.client-slider').owlCarousel({
+    loop: true,
+    nav: true,
+    navText: ["<i class='fa-solid fa-arrow-left-long'></i>","<i class='fa-solid fa-arrow-right-long'></i>"],
+    margin: 0,
+    autoplay: true,
+    lazyLoad: true,
+    smartSpeed: 1000,
+    autoplayTimeout: 3000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});

@@ -168,32 +168,32 @@ ul.navbar-nav li a:hover{
      background-color: #fff;
      color: #000;
  }
-.owl-dots{
+.hero .hero-slider .owl-dots{
     display: none;
 }
-.owl-nav{
+.hero .owl-nav{
     margin-top: 0 !important;
 }
-.owl-prev{
+.hero .owl-prev{
     position: absolute;
     left: 0;
     top: 48%;
 }
-.owl-next{
+.hero .owl-next{
     position: absolute;
     right: 0;
     top: 48%;
 }
-.owl-theme .owl-nav [class*=owl-]{
+.hero .owl-theme .owl-nav [class*=owl-]{
     margin: 0;
 }
-.owl-prev span{
+.hero .owl-prev span{
     font-size: 30px;
     background-color: #119ee6;
     padding: 15px 8px;
     color: #fff;
 }
-.owl-next span{
+.hero .owl-next span{
     font-size: 30px;
     background-color: #119ee6;
     padding: 15px 8px;
@@ -531,4 +531,28 @@ ul.navbar-nav li a:hover{
 }
 
 /* --- Why Choose CSS End ---*/
+
+/* --- Client CSS Start ---*/
+.item-head{
+    background-image: url(../images/quote.png);
+    background-repeat: no-repeat;
+}
+.item .highlight-des{
+    padding-left: 15px;
+    border-left: 1px solid #119ee6;
+    font-size: 14px;
+    color: #333333;
+}
+.client-name h6 {
+    font-size: 18px;
+}
+.client-name p {
+    font-size: 14px;
+    color: #333333;
+}
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+/* --- Client CSS End ---*/
+
 /* === Main Section CSS End Here === */
