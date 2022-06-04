@@ -1,0 +1,102 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+            font-size: 38px !important;
+    }
+    h2 {
+        font-size: 26px !important;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+
+    h5 {
+        font-size: 20px !important;
+    }
+
+    h6 {
+        font-size: 18px !important;
+    }
+    .social-left ul li {
+        margin-right: 10px !important;
+    }
+    .cart-icon{
+        display: none !important;
+    }
+    ul.navbar-nav {
+        text-align: center !important;
+    }
+    ul.dropdown-menu{
+        text-align: center !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .subscriber, .feature,
+    .pricing-plan,
+    .offer-section,
+    .why-choose-section,
+    .client-section, .counter-section {
+        padding: 50px 0 !important;
+    }
+    .hero .owl-prev span {
+        font-size: 24px !important;
+        padding: 12px 5px !important;
+    }
+    .hero .owl-next span {
+        font-size: 24px !important;
+        padding: 10px 5px !important;
+    }
+    .recommend{
+        margin-left: -50px !important;
+        margin-top: -10px;
+    }
+    .recommend h6 {
+        padding: 5px 30px !important;
+        font-size: 8px !important;
+    }
+    .price-list ul li span.install-charge {
+        font-size: 12px !important;
+    }
+    .price-list ul li {
+        margin-bottom: 5px !important;
+    }
+    .price-icon span {
+        width: 50px !important;
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .tab-content {
+        margin-top: 30px !important;
+        padding: 30px !important;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{
+        font-size: 38px !important;
+    }
+    h2 {
+        font-size: 32px !important;
+    }
+    h4 {
+        font-size: 22px !important;
+    }
+    h5 {
+        font-size: 20px !important;
+    }
+    h6 {
+        font-size: 18px !important;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
