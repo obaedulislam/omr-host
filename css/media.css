@@ -29,9 +29,25 @@
         p{
             font-size: 13px !important;
         }
-    
+        .navbar-toggler-icon {
+            width: 1em !important;
+            height: 1em !important;
+        }
         .social-left ul li {
             margin-right: 10px !important;
+        }
+        .social-right{
+            display: block !important;
+        }
+        .social-right ul{
+            display: block !important;
+        }
+        .social-right ul li{
+            text-align: center;
+            width: 100% !important;
+        }
+        .social-right ul li:first-child {
+            border-right: 0 !important;
         }
         .hero .owl-prev span {
             font-size: 24px !important;
@@ -67,7 +83,9 @@
         .navbar-toggler:focus {
             box-shadow: none !important;
         }
-    
+        .cart-icon {
+            display: none;
+        }
         .hero {
             padding: 50px 0 !important;
         }
@@ -77,7 +95,6 @@
         .carousel-content img {
             width: 50% !important;
         }
-    
         .subscriber,
         .feature,
         .pricing-plan,
@@ -110,8 +127,11 @@
             height: 50px !important;
             padding-top: 10px !important;
         }
+        .counter-icon1, .counter-icon2, .counter-icon3, .counter-icon4{
+            background-position: center center;
+        } 
         .counter-divider img{
-            width: 20px !important;
+            display: none;
         }
         .tab-content {
             margin-top: 30px !important;
@@ -155,7 +175,7 @@
             padding: 10px 15px !important;
         }
         .client-img img {
-            width: 30% !important;
+            width: 20% !important;
         }
     
         .review img {
