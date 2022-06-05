@@ -17,6 +17,8 @@
     src: url(../fonts/DroidSerif-Regular.ttf);
 }
 /* === Font Integration End ===*/
+
+/* === Common CSS Start Here === */
 *{
     margin: 0;
     padding: 0;
@@ -67,8 +69,9 @@ h6{
 p{
     margin: 0;
 }
-/* === Header Section CSS Start Here === */
+/* === Common CSS End Here === */
 
+/* === Header Section CSS Start Here === */
 #navbar {
     background-color: #fff;
     width: 100%;
@@ -92,7 +95,6 @@ p{
     vertical-align: middle;
 
 }
-
 .social-left ul{
     padding-left: 0;
     margin-bottom: 0;
@@ -149,9 +151,31 @@ ul.navbar-nav li a:hover{
 .navbar-toggler{
     background-color: #119ee6;
 }
+.cart-menu-icon{
+    position: absolute;
+    top: 80%;
+    right: 3.5%;
+}
+.cart-menu-icon span{
+    display: block;
+    width: 55px;
+    height: 55px;
+    padding-top: 6px;
+    background-color: #119ee6;
+    color: #fff;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #000;
+    font-size: 22px;
+    text-align: center;
+}
 /* Top Nav End */
 
 /* === Header Section CSS End Here === */
+
+
 
 /* === Main Section CSS Start Here === */
 
@@ -354,7 +378,6 @@ ul.navbar-nav li a:hover{
     background-color: #000;
     color: #fff;
 }
-
 .middle-header {
     background-color: #119ee6;
 }
@@ -427,7 +450,6 @@ ul.navbar-nav li a:hover{
     color: #F2F2F2;
 }
 /* --- Counter CSS End ---*/
-
 
 /* --- Offer CSS Start ---*/
 .offer-section{
@@ -535,7 +557,6 @@ ul.navbar-nav li a:hover{
 .row {
     overflow: hidden;
 }
-
 /* --- Why Choose CSS End ---*/
 
 /* --- Client CSS Start ---*/
@@ -590,6 +611,8 @@ ul.navbar-nav li a:hover{
 /* --- Contact CSS End ---*/
 
 /* === Main Section CSS End Here === */
+
+
 
 /* === Footer section CSS Start Here === */
 footer{

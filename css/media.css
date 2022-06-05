@@ -1,222 +1,55 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
-        header, main, footer{
-            overflow: hidden;
-        }
-        .container{
-            padding: 0 10px !important;
-        }
-        h1 {
-            font-size: 28px !important;
-        }
-    
-        h2 {
-            font-size: 22px !important;
-        }
-    
-        h4 {
-            font-size: 18px !important;
-        }
-    
-        h5 {
-            font-size: 16px !important;
-        }
-    
-        h6 {
-            font-size: 16px !important;
-        }
-        p{
-            font-size: 13px !important;
-        }
-        .navbar-toggler-icon {
-            width: 1em !important;
-            height: 1em !important;
-        }
-        .social-left ul li {
-            margin-right: 10px !important;
-        }
-        .social-right{
-            display: block !important;
-        }
-        .social-right ul{
-            display: block !important;
-        }
-        .social-right ul li{
-            text-align: center;
-            width: 100% !important;
-        }
-        .social-right ul li:first-child {
-            border-right: 0 !important;
-        }
-        .hero .owl-prev span {
-            font-size: 24px !important;
-            padding: 12px 5px !important;
-        }
-
-        .hero .owl-next span {
-            font-size: 24px !important;
-            padding: 10px 5px !important;
-        }
-        .card-group{
-            padding: 0 20px !important;
-        }
-        .card{
-            margin: 20px 0 !important;
-            padding: 15px !important;
-        }
-        .card-icon {
-            display: flex !important;
-            justify-content: center !important;
-        }
-        .card-title{
-            text-align: center;
-        }
-        ul.navbar-nav {
-            text-align: center !important;
-        }
-    
-        ul.dropdown-menu {
-            text-align: center !important;
-        }
-    
-        .navbar-toggler:focus {
-            box-shadow: none !important;
-        }
-        .cart-icon {
-            display: none;
-        }
-        .hero {
-            padding: 50px 0 !important;
-        }
-        .item{
-            padding: 0 15px !important;
-        }
-        .carousel-content img {
-            width: 50% !important;
-        }
-        .subscriber,
-        .feature,
-        .pricing-plan,
-        .offer-section,
-        .why-choose-section,
-        .client-section,
-        .counter-section {
-            padding: 50px 0 !important;
-        }
-        .recommend {
-            margin-left: -50px !important;
-            margin-top: -10px;
-        }
-    
-        .recommend h6 {
-            padding: 5px 30px !important;
-            font-size: 8px !important;
-        }
-    
-        .price-list ul li span.install-charge {
-            font-size: 12px !important;
-        }
-    
-        .price-list ul li {
-            margin-bottom: 5px !important;
-        }
-    
-        .price-icon span {
-            width: 50px !important;
-            height: 50px !important;
-            padding-top: 10px !important;
-        }
-        .counter-icon1, .counter-icon2, .counter-icon3, .counter-icon4{
-            background-position: center center;
-        } 
-        .counter-divider img{
-            display: none;
-        }
-        .tab-content {
-            margin-top: 30px !important;
-            padding: 30px !important;
-        }
-    
-        .border-rad {
-            font-size: 12px !important;
-        }
-    
-        .counter-divider span {
-            font-size: 80px;
-        }
-    
-        .we-offer-img img {
-            width: 50% !important;
-        }
-    
-        .hundred-secure h2 {
-            font-size: 40px !important;
-        }
-    
-        .hundred-secure {
-            margin-top: 0 !important;
-            padding-top: 0 !important;
-            margin-bottom: 0 !important;
-            padding-bottom: 0 !important;
-        }
-    
-        .why-first {
-            padding: 20px !important;
-        }
-        .offer-section .nav-pills .nav-link.active,
-        .nav-pills .show>.nav-link {
-            padding: 5px 10px !important;
-        }
-        .tab-btn span {
-            font-size: 20px !important;
-        }
-        .nav-tab-btn{
-            padding: 10px 15px !important;
-        }
-        .client-img img {
-            width: 20% !important;
-        }
-    
-        .review img {
-            width: 50% !important;
-        }
-    
-        footer {
-            padding: 50px 0 !important;
-        }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+    header, main, footer{
+        overflow: hidden;
+    }
+    .container{
+        padding: 0 10px !important;
+    }
     h1 {
-        font-size: 32px !important;
+        font-size: 28px !important;
     }
 
     h2 {
-        font-size: 24px !important;
+        font-size: 22px !important;
     }
 
     h4 {
-        font-size: 20px !important;
+        font-size: 18px !important;
     }
 
     h5 {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
     h6 {
         font-size: 16px !important;
     }
+    p{
+        font-size: 13px !important;
+    }
+    /*== Common CSS End ==*/
 
+    .navbar-toggler-icon {
+        width: 1em !important;
+        height: 1em !important;
+    }
     .social-left ul li {
         margin-right: 10px !important;
     }
-
-    .cart-icon {
-        display: none !important;
+    .social-right{
+        display: block !important;
     }
-
+    .social-right ul{
+        display: block !important;
+    }
+    .social-right ul li{
+        text-align: center;
+        width: 100% !important;
+    }
+    .social-right ul li:first-child {
+        border-right: 0 !important;
+    }
     ul.navbar-nav {
         text-align: center !important;
     }
@@ -228,21 +61,15 @@
     .navbar-toggler:focus {
         box-shadow: none !important;
     }
-    .hero {
-        padding: 50px 0 !important;
+
+    .cart-icon {
+        display: none;
     }
-    .carousel-content img{
-        width: 50% !important;
+
+    .cart-menu-icon {
+        display: none !important;
     }
-    .subscriber,
-    .feature,
-    .pricing-plan,
-    .offer-section,
-    .why-choose-section,
-    .client-section,
-    .counter-section {
-        padding: 50px 0 !important;
-    }
+    /*== Header CSS End ==*/
 
     .hero .owl-prev span {
         font-size: 24px !important;
@@ -253,7 +80,44 @@
         font-size: 24px !important;
         padding: 10px 5px !important;
     }
+    .hero {
+        padding: 50px 0 !important;
+    }
 
+    .item {
+        padding: 0 15px !important;
+    }
+
+    .carousel-content img {
+        width: 50% !important;
+    }
+    /*== Hero CSS End ==*/
+
+    .card-group{
+        padding: 0 20px !important;
+    }
+    .card{
+        margin: 20px 0 !important;
+        padding: 15px !important;
+    }
+    .card-icon {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .card-title{
+        text-align: center;
+    }
+    /*== Card CSS End ==*/
+
+    .subscriber,
+    .feature,
+    .pricing-plan,
+    .offer-section,
+    .why-choose-section,
+    .client-section,
+    .counter-section {
+        padding: 50px 0 !important;
+    }
     .recommend {
         margin-left: -50px !important;
         margin-top: -10px;
@@ -277,7 +141,14 @@
         height: 50px !important;
         padding-top: 10px !important;
     }
+    /*== Pricing CSS End ==*/
 
+    .counter-icon1, .counter-icon2, .counter-icon3, .counter-icon4{
+        background-position: center center;
+    } 
+    .counter-divider img{
+        display: none;
+    }
     .tab-content {
         margin-top: 30px !important;
         padding: 30px !important;
@@ -286,9 +157,160 @@
     .border-rad {
         font-size: 12px !important;
     }
+
     .counter-divider span {
         font-size: 80px;
     }
+    /*== Counter CSS End ==*/
+
+    .we-offer-img img {
+        width: 50% !important;
+    }
+
+    .hundred-secure h2 {
+        font-size: 40px !important;
+    }
+
+    .hundred-secure {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .why-first {
+        padding: 20px !important;
+    }
+    .offer-section .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        padding: 5px 10px !important;
+    }
+    .tab-btn span {
+        font-size: 20px !important;
+    }
+    .nav-tab-btn{
+        padding: 10px 15px !important;
+    }
+    /*== Offer CSS End ==*/
+
+    .client-img img {
+        width: 20% !important;
+    }
+    .review img {
+        width: 50% !important;
+    }
+    /*== Client CSS End ==*/
+    footer {
+        padding: 50px 0 !important;
+    }
+    /*== Footer CSS End ==*/
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 18px !important;
+    }
+
+    h6 {
+        font-size: 16px !important;
+    }
+    /*== Common CSS End ==*/
+
+    .social-left ul li {
+        margin-right: 10px !important;
+    }
+    .cart-icon {
+        display: none !important;
+    }
+    ul.navbar-nav {
+        text-align: center !important;
+    }
+
+    ul.dropdown-menu {
+        text-align: center !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .cart-menu-icon {
+        display: none !important;
+    }
+    /*== Offer CSS End ==*/
+
+    .hero {
+        padding: 50px 0 !important;
+    }
+    .carousel-content img{
+        width: 50% !important;
+    }
+    .hero .owl-prev span {
+        font-size: 24px !important;
+        padding: 12px 5px !important;
+    }
+
+    .hero .owl-next span {
+        font-size: 24px !important;
+        padding: 10px 5px !important;
+    }
+    /*== Hero CSS End ==*/
+
+    .subscriber,
+    .feature,
+    .pricing-plan,
+    .offer-section,
+    .why-choose-section,
+    .client-section,
+    .counter-section {
+        padding: 50px 0 !important;
+    }
+    .recommend {
+        margin-left: -50px !important;
+        margin-top: -10px;
+    }
+    .recommend h6 {
+        padding: 5px 30px !important;
+        font-size: 8px !important;
+    }
+    .price-list ul li span.install-charge {
+        font-size: 12px !important;
+    }
+
+    .price-list ul li {
+        margin-bottom: 5px !important;
+    }
+
+    .price-icon span {
+        width: 50px !important;
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    /*== Pricing CSS End ==*/
+
+    .tab-content {
+        margin-top: 30px !important;
+        padding: 30px !important;
+    }
+    .border-rad {
+        font-size: 12px !important;
+    }
+    .counter-divider span {
+        font-size: 80px;
+    }
+    /*== Counter CSS End ==*/
+
     .we-offer-img img{
         width: 50% !important;
     }
@@ -301,18 +323,23 @@
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
+    /*== Our Offer CSS End ==*/
+
     .why-first{
         padding: 20px !important;
     }
     .client-img img{
-        width: 30% !important;
+        width: 20% !important;
     }
     .review img{
         width: 50% !important;
     }
+    /*== Client CSS End ==*/
+
     footer {
         padding: 50px 0 !important;
     }
+    /*== Footer CSS End ==*/
 }
 
 /*  Medium devices (tablets, 768px and up) */
@@ -335,6 +362,8 @@
     h6 {
         font-size: 18px !important;
     }
+    /*== Common CSS End ==*/
+
     .social-left ul li {
         margin-right: 10px !important;
     }
@@ -350,6 +379,11 @@
     .navbar-toggler:focus {
         box-shadow: none !important;
     }
+    .cart-menu-icon {
+        display: none !important;
+    }
+    /*== Header CSS End ==*/
+
     .subscriber, .feature,
     .pricing-plan,
     .offer-section,
@@ -410,6 +444,7 @@
     h6 {
         font-size: 18px !important;
     }
+    /*== Common CSS End ==*/
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
