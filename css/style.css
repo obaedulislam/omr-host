@@ -87,14 +87,15 @@ p{
     width: 150px;
 }
 .top-nav{
-    height: 50px;
     background-color: #151414;
     align-items: center;
     vertical-align: middle;
+    
 }
 
 .social-left ul{
     padding-left: 0;
+    margin-bottom: 0;
 }
 .social-left ul li{
     display: inline;
@@ -108,6 +109,9 @@ p{
 }
 .social-left ul li a:hover{
     color: #119ee6;
+}
+.social-right ul{
+    margin-bottom: 0;
 }
 .social-right ul li:first-child{
     padding-right: 15px;

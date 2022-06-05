@@ -1,8 +1,269 @@
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+        h1 {
+            font-size: 32px !important;
+        }
+    
+        h2 {
+            font-size: 24px !important;
+        }
+    
+        h4 {
+            font-size: 20px !important;
+        }
+    
+        h5 {
+            font-size: 18px !important;
+        }
+    
+        h6 {
+            font-size: 16px !important;
+        }
+    
+        .social-left ul li {
+            margin-right: 10px !important;
+        }
+    
+        .cart-icon {
+            display: none !important;
+        }
+    
+        ul.navbar-nav {
+            text-align: center !important;
+        }
+    
+        ul.dropdown-menu {
+            text-align: center !important;
+        }
+    
+        .navbar-toggler:focus {
+            box-shadow: none !important;
+        }
+    
+        .hero {
+            padding: 50px 0 !important;
+        }
+    
+        .carousel-content img {
+            width: 50% !important;
+        }
+    
+        .subscriber,
+        .feature,
+        .pricing-plan,
+        .offer-section,
+        .why-choose-section,
+        .client-section,
+        .counter-section {
+            padding: 50px 0 !important;
+        }
+    
+        .hero .owl-prev span {
+            font-size: 24px !important;
+            padding: 12px 5px !important;
+        }
+    
+        .hero .owl-next span {
+            font-size: 24px !important;
+            padding: 10px 5px !important;
+        }
+    
+        .recommend {
+            margin-left: -50px !important;
+            margin-top: -10px;
+        }
+    
+        .recommend h6 {
+            padding: 5px 30px !important;
+            font-size: 8px !important;
+        }
+    
+        .price-list ul li span.install-charge {
+            font-size: 12px !important;
+        }
+    
+        .price-list ul li {
+            margin-bottom: 5px !important;
+        }
+    
+        .price-icon span {
+            width: 50px !important;
+            height: 50px !important;
+            padding-top: 10px !important;
+        }
+    
+        .tab-content {
+            margin-top: 30px !important;
+            padding: 30px !important;
+        }
+    
+        .border-rad {
+            font-size: 12px !important;
+        }
+    
+        .counter-divider span {
+            font-size: 80px;
+        }
+    
+        .we-offer-img img {
+            width: 50% !important;
+        }
+    
+        .hundred-secure h2 {
+            font-size: 40px !important;
+        }
+    
+        .hundred-secure {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    
+        .why-first {
+            padding: 20px !important;
+        }
+    
+        .client-img img {
+            width: 30% !important;
+        }
+    
+        .review img {
+            width: 50% !important;
+        }
+    
+        footer {
+            padding: 50px 0 !important;
+        }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 18px !important;
+    }
+
+    h6 {
+        font-size: 16px !important;
+    }
+
+    .social-left ul li {
+        margin-right: 10px !important;
+    }
+
+    .cart-icon {
+        display: none !important;
+    }
+
+    ul.navbar-nav {
+        text-align: center !important;
+    }
+
+    ul.dropdown-menu {
+        text-align: center !important;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .hero {
+        padding: 50px 0 !important;
+    }
+    .carousel-content img{
+        width: 50% !important;
+    }
+    .subscriber,
+    .feature,
+    .pricing-plan,
+    .offer-section,
+    .why-choose-section,
+    .client-section,
+    .counter-section {
+        padding: 50px 0 !important;
+    }
+
+    .hero .owl-prev span {
+        font-size: 24px !important;
+        padding: 12px 5px !important;
+    }
+
+    .hero .owl-next span {
+        font-size: 24px !important;
+        padding: 10px 5px !important;
+    }
+
+    .recommend {
+        margin-left: -50px !important;
+        margin-top: -10px;
+    }
+
+    .recommend h6 {
+        padding: 5px 30px !important;
+        font-size: 8px !important;
+    }
+
+    .price-list ul li span.install-charge {
+        font-size: 12px !important;
+    }
+
+    .price-list ul li {
+        margin-bottom: 5px !important;
+    }
+
+    .price-icon span {
+        width: 50px !important;
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+
+    .tab-content {
+        margin-top: 30px !important;
+        padding: 30px !important;
+    }
+
+    .border-rad {
+        font-size: 12px !important;
+    }
+    .counter-divider span {
+        font-size: 80px;
+    }
+    .we-offer-img img{
+        width: 50% !important;
+    }
+    .hundred-secure h2 {
+        font-size: 40px !important;
+    }
+    .hundred-secure {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .why-first{
+        padding: 20px !important;
+    }
+    .client-img img{
+        width: 30% !important;
+    }
+    .review img{
+        width: 50% !important;
+    }
+    footer {
+        padding: 50px 0 !important;
+    }
+}
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -76,6 +337,9 @@
     .tab-content {
         margin-top: 30px !important;
         padding: 30px !important;
+    }
+    .border-rad{
+        font-size: 12px !important;
     }
 }
 

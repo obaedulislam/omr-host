@@ -57,6 +57,7 @@ $(document).ready(function(){
 $('.client-slider').owlCarousel({
     loop: true,
     nav: true,
+    dots: false,
     navText: ["<i class='fa-solid fa-arrow-left-long'></i>","<i class='fa-solid fa-arrow-right-long'></i>"],
     margin: 0,
     autoplay: true,
